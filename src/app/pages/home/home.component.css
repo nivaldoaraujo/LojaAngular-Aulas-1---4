@@ -1,0 +1,84 @@
+.banner{
+    background-image: url(../../../assets/img/foto1.jpg);
+    height: 610px;
+    background-position: center top;
+    background-size: cover;
+}
+/* .banner h1{
+    color: bisque;
+    font-size: 50px;
+    font-weight: bold;
+    top: 30%;
+    left:  40%;
+    position: absolute;
+}*/
+/* 2 opção*/
+.content{
+    top: 18;
+    left: 20%;
+    position: absolute;
+    top: 30%;
+    left:  40%;
+}
+.content h1{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+/* 3 opção formatando o botão*/
+.content a{
+    text-decoration: none;
+    background-color: white;
+    color: blueviolet;
+    padding: 20px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+/* 4 opção */
+.content a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+
+/* 5 formatação do segundo bloco de div */
+.Box{
+    background-color: rgb(66, 60, 60);
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.Box h1{
+    color: yellow;
+    text-align: center;
+    font-size: 30px;
+}
+.Box p{
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+/* 6 foodBox estilizar */
+.foodbox{
+    padding: 10px 5px;
+
+}
+.foodbox img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.foodbox h1{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.maisopcoes{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px  10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
